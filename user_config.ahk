@@ -21,47 +21,25 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-CapsLock & 1::switchDesktopByNumber(1)
-CapsLock & 2::switchDesktopByNumber(2)
-CapsLock & 3::switchDesktopByNumber(3)
-CapsLock & 4::switchDesktopByNumber(4)
-CapsLock & 5::switchDesktopByNumber(5)
-CapsLock & 6::switchDesktopByNumber(6)
-CapsLock & 7::switchDesktopByNumber(7)
-CapsLock & 8::switchDesktopByNumber(8)
-CapsLock & 9::switchDesktopByNumber(9)
+#1::switchDesktopByNumber(1)
+#2::switchDesktopByNumber(2)
+#3::switchDesktopByNumber(3)
+#4::switchDesktopByNumber(4)
+#5::switchDesktopByNumber(5)
+#6::switchDesktopByNumber(6)
+#7::switchDesktopByNumber(7)
+#8::switchDesktopByNumber(8)
+#9::switchDesktopByNumber(9)
 
-CapsLock & Numpad1::switchDesktopByNumber(1)
-CapsLock & Numpad2::switchDesktopByNumber(2)
-CapsLock & Numpad3::switchDesktopByNumber(3)
-CapsLock & Numpad4::switchDesktopByNumber(4)
-CapsLock & Numpad5::switchDesktopByNumber(5)
-CapsLock & Numpad6::switchDesktopByNumber(6)
-CapsLock & Numpad7::switchDesktopByNumber(7)
-CapsLock & Numpad8::switchDesktopByNumber(8)
-CapsLock & Numpad9::switchDesktopByNumber(9)
-
-CapsLock & n::switchDesktopToRight()
-CapsLock & p::switchDesktopToLeft()
-CapsLock & s::switchDesktopToRight()
-CapsLock & a::switchDesktopToLeft()
-CapsLock & tab::switchDesktopToLastOpened()
-
-CapsLock & c::createVirtualDesktop()
-CapsLock & d::deleteVirtualDesktop()
-
-CapsLock & q::MoveCurrentWindowToDesktop(1)
-CapsLock & w::MoveCurrentWindowToDesktop(2)
-CapsLock & e::MoveCurrentWindowToDesktop(3)
-CapsLock & r::MoveCurrentWindowToDesktop(4)
-CapsLock & t::MoveCurrentWindowToDesktop(5)
-CapsLock & y::MoveCurrentWindowToDesktop(6)
-CapsLock & u::MoveCurrentWindowToDesktop(7)
-CapsLock & i::MoveCurrentWindowToDesktop(8)
-CapsLock & o::MoveCurrentWindowToDesktop(9)
-
-CapsLock & Right::MoveCurrentWindowToRightDesktop()
-CapsLock & Left::MoveCurrentWindowToLeftDesktop()
+#Numpad1::switchDesktopByNumber(1)
+#Numpad2::switchDesktopByNumber(2)
+#Numpad3::switchDesktopByNumber(3)
+#Numpad4::switchDesktopByNumber(4)
+#Numpad5::switchDesktopByNumber(5)
+#Numpad6::switchDesktopByNumber(6)
+#Numpad7::switchDesktopByNumber(7)
+#Numpad8::switchDesktopByNumber(8)
+#Numpad9::switchDesktopByNumber(9)
 
 ; === INSTRUCTIONS ===
 ; Below is the alternate key configuration. Delete symbol ; in the beginning of the line to enable.
@@ -119,8 +97,6 @@ CapsLock & Left::MoveCurrentWindowToLeftDesktop()
 
 ; ^#Right::MoveCurrentWindowToRightDesktop()
 ; ^#Left::MoveCurrentWindowToLeftDesktop()
-
-
 
 ; === INSTRUCTIONS ===
 ; Additional alternative shortcut for moving current window to left or right desktop (ctrl+shift+Win+left/right)
